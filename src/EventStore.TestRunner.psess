@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VSPerformanceSession Version="1.00">
+  <Options>
+    <Solution>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.PerformanceTests.sln</Solution>
+    <CollectionMethod>Sampling</CollectionMethod>
+    <AllocationMethod>None</AllocationMethod>
+    <LaunchRuntimeControl>true</LaunchRuntimeControl>
+    <AddReport>true</AddReport>
+    <ResourceBasedAnalysisSelected>false</ResourceBasedAnalysisSelected>
+    <ThreadBasedAnalysisSelected>false</ThreadBasedAnalysisSelected>
+    <UniqueReport>Timestamp</UniqueReport>
+    <SamplingMethod>Cycles</SamplingMethod>
+    <CycleCount>10000000</CycleCount>
+    <PageFaultCount>10</PageFaultCount>
+    <SysCallCount>10</SysCallCount>
+    <SamplingCounter Name="" ReloadValue="00000000000f4240" DisplayName="" />
+    <RelocateBinaries>false</RelocateBinaries>
+    <AdditionalArgruments />
+    <TargetCLRVersion>Automatic</TargetCLRVersion>
+    <CollectOnHpcCluster>false</CollectOnHpcCluster>
+    <HPCSettings>
+      <NumberOfProcesses>0</NumberOfProcesses>
+      <TargetSelection>UnknownDisabled</TargetSelection>
+      <ProfileOnRank>0</ProfileOnRank>
+      <AdvancedProperties>
+        <Project>EventStore.TestRunner</Project>
+        <CleanUp>true</CleanUp>
+        <MpiexecCommand>mpiexec.exe</MpiexecCommand>
+        <DeployCRT>true</DeployCRT>
+      </AdvancedProperties>
+    </HPCSettings>
+    <HardwareCounters EnableHWCounters="false" />
+    <EtwSettings>
+      <Provider ControlGuid="06b94d9a-b15e-456e-a4ef-37c984a2cb4b" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="1fbecc45-c060-4e7c-8a0e-0dbd6116181b" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="3a2a4e84-4c21-4981-ae10-3fda0d9b0f83" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="9e814aad-3204-11d2-9a82-006008a86939" Enabled="true" Flags="00000000" Level="0" />
+      <Provider ControlGuid="a1c2040e-8840-4c31-ba11-9871031a19ea" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="aff081fe-0247-4275-9c4e-021f3dc1da35" Enabled="false" Flags="ffffffff" Level="5" />
+      <Provider ControlGuid="e13c0d23-ccbc-4e12-931b-d9cc2eee27e4" Enabled="false" Flags="7fffffff" Level="5" />
+    </EtwSettings>
+    <PdhSettings>
+      <PdhCountersEnabled>true</PdhCountersEnabled>
+      <PdhCountersRate>500</PdhCountersRate>
+      <PdhCounters>
+        <PdhCounter>\.NET CLR Exceptions(_Global_)\# of Exceps Thrown / sec</PdhCounter>
+        <PdhCounter>\.NET CLR LocksAndThreads(_Global_)\# of current physical Threads</PdhCounter>
+        <PdhCounter>\Memory\Pages/sec</PdhCounter>
+        <PdhCounter>\PhysicalDisk(_Total)\Avg. Disk Queue Length</PdhCounter>
+        <PdhCounter>\Processor(_Total)\% Processor Time</PdhCounter>
+      </PdhCounters>
+    </PdhSettings>
+  </Options>
+  <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+  <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+  <PreinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PreinstrumentEvent>
+  <PostinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PostinstrumentEvent>
+  <Binaries>
+    <ProjBinary>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner\obj\x86\Release\EventStore.TestRunner.exe</Path>
+      <TargetCLRVersion>Automatic</TargetCLRVersion>
+      <ArgumentTimestamp>11/15/2011 16:37:18</ArgumentTimestamp>
+      <Instrument>true</Instrument>
+      <Sample>true</Sample>
+      <ExternalWebsite>false</ExternalWebsite>
+      <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+      <IsLocalJavascript>false</IsLocalJavascript>
+      <LaunchProject>true</LaunchProject>
+      <OverrideProjectSettings>false</OverrideProjectSettings>
+      <LaunchMethod>Executable</LaunchMethod>
+      <ExecutablePath>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner\bin\Release\EventStore.TestRunner.exe</ExecutablePath>
+      <StartupDirectory>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner\bin\Release\</StartupDirectory>
+      <Arguments />
+      <NetAppHost>IIS</NetAppHost>
+      <NetBrowser>InternetExplorer</NetBrowser>
+      <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+      <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+      <PreinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PreinstrumentEvent>
+      <PostinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PostinstrumentEvent>
+      <ProjRef>{FF5BBBE6-1569-4DBB-B3C2-1A5C146F1C43}|EventStore.TestRunner\EventStore.TestRunner.csproj</ProjRef>
+      <ProjPath>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner\EventStore.TestRunner.csproj</ProjPath>
+      <ProjName>EventStore.TestRunner</ProjName>
+    </ProjBinary>
+  </Binaries>
+  <Reports>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(1).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(2).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(3).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(4).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(5).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(6).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(7).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(8).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(10).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(11).vsp</Path>
+    </Report>
+    <Report>
+      <Path>C:\Dev\Spike\EventStore.PerfomanceTests\EventStore.PerfomanceTests\src\EventStore.TestRunner111115(12).vsp</Path>
+    </Report>
+  </Reports>
+  <Launches>
+    <ProjBinary>
+      <Path>:PB:{FF5BBBE6-1569-4DBB-B3C2-1A5C146F1C43}|EventStore.TestRunner\EventStore.TestRunner.csproj</Path>
+    </ProjBinary>
+  </Launches>
+  <RuntimeMarks>
+    <MarkName>Mark One</MarkName>
+    <MarkName>Mark Two</MarkName>
+    <MarkName>Mark Three</MarkName>
+    <MarkName>Mark Four</MarkName>
+    <MarkName>Mark Five</MarkName>
+    <MarkName>Mark Six</MarkName>
+    <MarkName>Mark Seven</MarkName>
+    <MarkName>Mark Eight</MarkName>
+    <MarkName>Mark Nine</MarkName>
+    <MarkName>Mark Ten</MarkName>
+  </RuntimeMarks>
+</VSPerformanceSession>

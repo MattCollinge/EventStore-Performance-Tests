@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit
+END
+nunit.core.interfaces.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit.core.interfaces.dll
+END
+nunit-console.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit-console.exe.config
+END
+nunit.util.dll
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit.util.dll
+END
+nunit.framework.dll
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit.framework.dll
+END
+nunit-console.exe
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit-console.exe
+END
+nunit-console-runner.dll
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit-console-runner.dll
+END
+nunit.core.dll
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/16/trunk/Source/Lib/NUnit/nunit.core.dll
+END
